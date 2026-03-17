@@ -18,9 +18,9 @@ if [ ! -d "$SOURCE_DIR" ]; then
 fi
 
 # 定义目标平台 (Bash 3.2 兼容数组)
-TOOLS=("Codex" "OpenCode" "Gemini" "Antigravity" "Cursor")
+TOOLS=("Codex" "OpenCode" "Gemini" "Antigravity" "Cursor" "Agents")
 # 对应的配置根目录
-PATHS=("$HOME/.codex" "$HOME/.opencode" "$HOME/.gemini" "$HOME/.gemini/antigravity" "$HOME/.cursor")
+PATHS=("$HOME/.codex" "$HOME/.opencode" "$HOME/.gemini" "$HOME/.gemini/antigravity" "$HOME/.cursor" "$HOME/.agents")
 
 # 获取数组长度
 COUNT=${#TOOLS[@]}
